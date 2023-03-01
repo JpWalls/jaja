@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/images/moon.jpg);
+}
+
+.datos{
+    display: table;
+    margin: 2rem;
+    height: 220px;
+    width: 630px;
+}
+
+.datos span{
+    display: table-cell;
+    position: relative;
+    left: 900px;
+    color: beige;
+    font-size: 20px;
+    padding: 0 1rem;
+    vertical-align: middle;
+}
+
+.dp h1{
+   text-align: center;
+   position: relative;
+   top: 50px;
+   left: 960px;
+   color: #092327;
+   background-color: #cccccc24;
+   border: 1px solid;
+   border-radius: 20px;
+   box-shadow: 0 5px 5px 0 rgba(250, 250, 250, .6); 
+}
+
+.dp h1{
+    text-align: center;
+    height: 450px;
+    width: 540px;
+}
+
+.dp ul li{
+    text-align: center;
+    position: relative;
+    bottom: 280px;
+    right: 114px;
+    color: beige;
+    font-size: 20px;
+}
+
+.dp ul li.ed{
+    position: relative;
+    left: -205px;
+}
+
+.dp ul li.dn{
+    position: relative;
+    left: -180px;
+}
+
+.dp ul li.estado{
+    position: relative;
+    left: -130px;
+}
+
+.dp ul li.nc{
+    position: relative;
+    left: -152px;
+}
+
+.dp ul li.pro{
+    position: relative;
+    left: -158px;
+}
+
+.dp ul li.lc{
+    position: relative;
+    left: -172px;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    position: relative;
+    right: 12px;
+    bottom: -155px;
+    font-size: 20px;
+}
+
+.back{
+    display: inline-block;
+    position: relative;
+    bottom: 998px;
+    left: 20px;
+}
+
+.back a{
+    color: white;
+}

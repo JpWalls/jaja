@@ -1,0 +1,224 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+
+.contenedor{
+    position: relative;
+    bottom: 80px;
+}
+
+
+.menú{
+    list-style: none;
+    padding: 0;
+    background: #092327;
+    width: 98%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px 0 rgba(250, 250, 250, .6); 
+}
+
+.menú li a{
+    position: relative;
+    left: 100px;
+    text-decoration: none;
+    color: white;
+    padding: 35px;
+    display: block;
+    font-size: 20px;
+}
+
+.menú li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menú li a:hover{
+    background: #F49380;
+}
+
+
+.checkbtn{
+    position: relative;
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 100px;
+    margin-left: 40px;
+    right: 40px;
+    top: 80px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.contenedor img{
+    border-radius: 50%;
+    position: relative;
+    top: 88px;
+    left: 30px;
+}
+
+.name{
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 190px;
+    color: #092327;
+}
+
+footer{
+    float: right;
+    position: relative;
+    top: 700px;
+    left: -10px;
+    font-size: 21px;
+}
+
+body{
+    background-image: url(/images/moon.jpg);
+}
+/*
+@media screen and (max-width: 957px){
+    img{
+        padding-right: 2px;
+    }
+    .menú li a{
+        font-size: 14px;
+    }
+}*/
+
+/*lo hice desktop first, pero me di cuenta tarde que es mejor hacerlo mobil first es mejor practica y mas comodo hacerlo*/
+/*
+@media screen and (max-width:1280px){
+    body footer{
+        position: relative;
+        top: 360px;
+        right: 10px;
+    }
+}*/
+
+@media screen and (max-width:1024px){
+    .name h1{
+        position: relative;
+        bottom: 80px;
+    }
+    .name h4{
+        position: relative;
+        bottom: 80px;
+    }
+    body footer{
+        position: relative;
+        top: 160px;
+    }
+}
+
+@media screen and (max-width:858px){
+    .checkbtn{
+        display: block;
+    }
+    .menú{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #092327;
+        top: 120px;
+        left: 100%;
+        transition: all .5s;
+        z-index: 1;
+    }
+    .menú li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .menú li a{
+        font-size: 17px;
+    }
+    .menú li a{
+        position: relative;
+        left: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: beige;
+        border-radius: 20px;
+        margin-right: 38px;
+    }
+    #check:checked ~.menú{
+        left: 0;
+    }
+    body footer{
+        position: relative;
+        top: 620px;
+    }
+}
+
+@media screen and (max-width:414px){
+    .menú li a{
+        position: relative;
+        left: 8px;
+        font-size: 19px;
+    }
+    body footer{
+        position: relative;
+        top: 470px;
+        right: 18px;
+    }
+}
+
+@media screen and (max-width:412px){
+    .menú li a{
+        position: relative;
+        left: 7px;
+    }
+}
+
+@media screen and (max-width:390px){
+    body footer{
+        position: relative;
+        top: 410px;
+        right: 5px;
+    }
+}
+
+@media screen and (max-width:375px){
+    .menú{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+    }
+    .menú li{
+        line-height: 10px;
+    } 
+    .menú li a{
+        position: relative;
+        left: 9px;
+    }
+    body footer{
+        position: relative;
+        top: 235px;
+        right: 10px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:360px){
+    .menú li a{
+        position: relative;
+        left: 3px;
+    }
+    body footer{
+        position: relative;
+        top: 320px;
+        right: 1px;
+    }
+}
+
+
+
+

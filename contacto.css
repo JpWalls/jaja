@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-decoration-style:none;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/moon.jpg);
+    overflow-x: hidden;
+}
+
+:root{
+    --facebook:#3b5999;
+    --instagram:#e4405f;
+    --linkedin:#0077B5;
+}
+
+.name{
+    color: #092327;
+    text-align: center;
+    position: relative;
+    top: 280px;
+    left: 10px;
+    font-size: 28px;
+    letter-spacing: 8px;
+}
+
+.redes{
+    display: inline-block;
+    position: relative;
+    left: 1020px;
+    top: 400px;
+    letter-spacing: 70px;
+}
+
+.icon a{
+    display: inline-block;
+    padding: 6px 10px;
+    background: lightgray;
+    border-radius: 10px;
+    line-height: 20px;
+    box-shadow: 0 3px 5px 0px rgba(0, 0, 0, .2);
+    transition: .2s;
+    color: #092327;
+}
+
+.icon:hover a{
+    filter: blur(2px);
+}
+
+.icon a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0, 0, 0, .4);
+    filter: none;
+}
+
+.instagram-logo:hover{
+    background: var(--instagram);
+}
+
+.facebook-logo:hover{
+    background: var(--facebook);
+}
+
+.linkedin-logo:hover{
+    background: var(--linkedin);
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    position: relative;
+    left: -10px;
+    top: 1050px;
+    font-size: 20px;
+}
+
+.back{
+    display: inline-block;
+    position: relative;
+    bottom: 101px;
+    left: 20px;
+}
+
+.back a{
+    color: white;
+}
+
